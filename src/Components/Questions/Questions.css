@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    border: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.small {
+    flex: 1;
+}
+
+.large {
+    flex: 3;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 35px;
+  }
+  
+  .back-button {
+    width: 100%;
+    background-color: #025BD4;
+    color: #fff; 
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .information-container h5 {
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 5px; 
+    font-size: 16px;
+  }
+  
+  .information-container p {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; 
+    color: #aaa;
+    h4{
+        color: #000;
+        font-weight: 500;
+    }
+  }
+  .file-list-container {
+    background-color: #f0f8ff; 
+    padding: 10px;
+    border-radius: 10px; 
+  }
+  .file-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        font-size: 12px;
+    }
+  }
+  
+  .file-block {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f4f6f5;
+    border-radius: 5px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .file-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: red;
+  }
+  .file-count {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: #e6f7ff;
+    color: #007bff;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+  .section-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    background-color: white; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+
+.section-button {
+    padding: 10px ;
+    background-color: #ffffff;
+    border: 1px #f0f0f0; 
+    cursor: pointer;
+    width: 100%;
+    color:#aaa;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.section-button.active {
+    background-color: #025BD4; 
+    color: white;
+}
+
+.section-content {
+    /* padding: 20px; */
+    background-color: white;
+}
+.more-questions > div {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.more-questions > div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.more-questions h4 {
+    margin-bottom: 10px;
+}
+
+.more-questions p {
+    color: #666;
+}
