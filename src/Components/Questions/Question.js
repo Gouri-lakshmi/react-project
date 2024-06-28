@@ -195,6 +195,11 @@ const Question = ({files=[]}) => {
                         </div>
                     )}
                 </div>
+                <div className='continue-block'>
+       <Link to="/thirdblock">
+            <button className='continue'>Continue</button>
+          </Link>
+          </div>
             </div>
         </div>
     )
